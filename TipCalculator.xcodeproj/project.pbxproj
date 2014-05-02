@@ -120,13 +120,13 @@
 				CE9DD5291910B13500F546D0 /* TCAppDelegate.h */,
 				CE9DD54E19120EA900F546D0 /* TCSettingsViewController.h */,
 				CE9DD54F19120EA900F546D0 /* TCSettingsViewController.m */,
+				CE9DD5491910B28300F546D0 /* TCViewController.h */,
+				CE9DD54A1910B28300F546D0 /* TCViewController.m */,
+				CE9DD54B1910B28300F546D0 /* TCViewController.xib */,
 				CE9DD55019120EA900F546D0 /* TCSettingsViewController.xib */,
 				CE9DD52A1910B13500F546D0 /* TCAppDelegate.m */,
 				CE9DD52C1910B13500F546D0 /* Images.xcassets */,
 				CE9DD5211910B13500F546D0 /* Supporting Files */,
-				CE9DD5491910B28300F546D0 /* TCViewController.h */,
-				CE9DD54A1910B28300F546D0 /* TCViewController.m */,
-				CE9DD54B1910B28300F546D0 /* TCViewController.xib */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
