@@ -9,5 +9,5 @@ Features
 - Round up per person total amounts to easily split bills
 - Custom App Icon
 - Settings Page
-  - Control default Tip
-  - Round up for groups on/off by default
+  - Control default tip percentage
+  - Control round up for groups off or on by default
