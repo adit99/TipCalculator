@@ -7,6 +7,7 @@ Features
 - Allows specification of 10, 15, 20 percentage tip
 - Split bill between groups
 - Round up per person total amounts to easily split bills
+- Custom App Icon
 - Settings Page
   - Control default Tip
   - Round up for groups on/off by default
