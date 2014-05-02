@@ -61,6 +61,9 @@
 		CED759DE19140EDB00388BEF /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
 		CED759DF19140EE400388BEF /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
 		CED759E019140EF700388BEF /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		CED759E11914140600388BEF /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
+		CED759E21914144100388BEF /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		CED759E31914147700388BEF /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,9 @@
 		CE9DD50E1910B13500F546D0 = {
 			isa = PBXGroup;
 			children = (
+				CED759E31914147700388BEF /* 29x29.png */,
+				CED759E21914144100388BEF /* 58x58.png */,
+				CED759E11914140600388BEF /* 80x80.png */,
 				CED759E019140EF700388BEF /* 120x120.png */,
 				CED759DF19140EE400388BEF /* 114x114.png */,
 				CED759DE19140EDB00388BEF /* 57x57.png */,
@@ -386,7 +392,6 @@
 		CE9DD5441910B13500F546D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
@@ -399,7 +404,6 @@
 		CE9DD5451910B13500F546D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
