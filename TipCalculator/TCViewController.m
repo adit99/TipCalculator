@@ -39,6 +39,10 @@
         //Set the default tip to the first index when the controller is initialized
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         [defaults setInteger:0 forKey:@"defaultTip"];
+        //Set the roundUpforGroups flag to false when the controller is initialized
+        [defaults setBool:FALSE forKey:@"roundUpForGroups"];
+
+
         [defaults synchronize];
     }
     return self;
@@ -74,6 +78,9 @@
 - (void)updateValues {
     NSLog(@"update values called");
 
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    BOOL roundUpforGroups = [defaults boolForKey:@"roundUpForGroups"];
+    
     float billAmount = [self.billTextField.text floatValue];
     NSArray *tipValues = @[@(0.1), @(0.15), @(0.2)];
     
@@ -86,8 +93,16 @@
     if (numPersons == 0) {
         numPersons = 1;
     }
-
-    self.perPersonTotal.text = [NSString stringWithFormat:@"$%0.2f", totalAmount /numPersons];
+    
+    //new math if we are rounding up
+    float perPersonTotal = totalAmount / numPersons;
+    if (roundUpforGroups && numPersons > 1) {
+        perPersonTotal = ceilf(perPersonTotal);
+        totalAmount  = perPersonTotal * numPersons;
+        tipAmount  = totalAmount - billAmount;
+    }
+    
+    self.perPersonTotal.text = [NSString stringWithFormat:@"$%0.2f", perPersonTotal];
     self.tipLabel.text = [NSString stringWithFormat:@"$%0.2f", tipAmount];
     self.totalLabel.text = [NSString stringWithFormat:@"$%0.2f", totalAmount];
 }

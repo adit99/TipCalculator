@@ -12,6 +12,9 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *defaultTipControl;
 - (IBAction)onChange:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UISwitch *roundUpForGroups;
+- (IBAction)onRoundUpChange:(id)sender;
+
 @end
 
 @implementation TCSettingsViewController
@@ -35,7 +38,9 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int defaultTip = [defaults integerForKey:@"defaultTip"];
     [self.defaultTipControl setSelectedSegmentIndex:defaultTip];
-    NSLog(@"DefaultTip:%d ",defaultTip);
+    
+    bool roundUpForGroups = [defaults integerForKey:@"roundUpForGroups"];
+    [self.roundUpForGroups setOn:roundUpForGroups];
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,6 +56,15 @@
     int defaultTipIndex = self.defaultTipControl.selectedSegmentIndex;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setInteger:defaultTipIndex forKey:@"defaultTip"];
+    [defaults synchronize];
+}
+
+- (IBAction)onRoundUpChange:(id)sender {
+    NSLog(@"Round up for groups Changed");
+
+    bool roundUpForGroups = self.roundUpForGroups.isOn;
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setBool:roundUpForGroups forKey:@"roundUpForGroups"];
     [defaults synchronize];
 }
 
