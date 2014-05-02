@@ -58,6 +58,9 @@
 		CE9DD54E19120EA900F546D0 /* TCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCSettingsViewController.h; path = ../TCSettingsViewController.h; sourceTree = "<group>"; };
 		CE9DD54F19120EA900F546D0 /* TCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCSettingsViewController.m; path = ../TCSettingsViewController.m; sourceTree = "<group>"; };
 		CE9DD55019120EA900F546D0 /* TCSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TCSettingsViewController.xib; path = ../TCSettingsViewController.xib; sourceTree = "<group>"; };
+		CED759DE19140EDB00388BEF /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		CED759DF19140EE400388BEF /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		CED759E019140EF700388BEF /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,9 @@
 		CE9DD50E1910B13500F546D0 = {
 			isa = PBXGroup;
 			children = (
+				CED759E019140EF700388BEF /* 120x120.png */,
+				CED759DF19140EE400388BEF /* 114x114.png */,
+				CED759DE19140EDB00388BEF /* 57x57.png */,
 				CE9DD5201910B13500F546D0 /* TipCalculator */,
 				CE9DD5391910B13500F546D0 /* TipCalculatorTests */,
 				CE9DD5191910B13500F546D0 /* Frameworks */,
@@ -380,7 +386,6 @@
 		CE9DD5441910B13500F546D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
@@ -394,7 +399,6 @@
 		CE9DD5451910B13500F546D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
