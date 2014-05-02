@@ -23,6 +23,10 @@
 		CE9DD54D1910B28300F546D0 /* TCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9DD54B1910B28300F546D0 /* TCViewController.xib */; };
 		CE9DD55119120EA900F546D0 /* TCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DD54F19120EA900F546D0 /* TCSettingsViewController.m */; };
 		CE9DD55219120EA900F546D0 /* TCSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9DD55019120EA900F546D0 /* TCSettingsViewController.xib */; };
+		CED759EE1914425600388BEF /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = CED759EA1914425600388BEF /* 120x120.png */; };
+		CED759EF1914425600388BEF /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = CED759EB1914425600388BEF /* 58x58.png */; };
+		CED759F01914425600388BEF /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = CED759EC1914425600388BEF /* 80x80.png */; };
+		CED759F11914425600388BEF /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CED759ED1914425600388BEF /* Contents.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,15 +62,18 @@
 		CE9DD54E19120EA900F546D0 /* TCSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCSettingsViewController.h; path = ../TCSettingsViewController.h; sourceTree = "<group>"; };
 		CE9DD54F19120EA900F546D0 /* TCSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCSettingsViewController.m; path = ../TCSettingsViewController.m; sourceTree = "<group>"; };
 		CE9DD55019120EA900F546D0 /* TCSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TCSettingsViewController.xib; path = ../TCSettingsViewController.xib; sourceTree = "<group>"; };
-		CED759DE19140EDB00388BEF /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
-		CED759DF19140EE400388BEF /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
-		CED759E019140EF700388BEF /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
-		CED759E11914140600388BEF /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
-		CED759E21914144100388BEF /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
-		CED759E31914147700388BEF /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
-		CED759E51914161E00388BEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		CED759E61914165000388BEF /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
-		CED759E7191416EE00388BEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CED759DE19140EDB00388BEF /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = ../57x57.png; sourceTree = "<group>"; };
+		CED759DF19140EE400388BEF /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114x114.png; path = ../114x114.png; sourceTree = "<group>"; };
+		CED759E019140EF700388BEF /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120x120.png; path = ../120x120.png; sourceTree = "<group>"; };
+		CED759E11914140600388BEF /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80x80.png; path = ../80x80.png; sourceTree = "<group>"; };
+		CED759E21914144100388BEF /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 58x58.png; path = ../58x58.png; sourceTree = "<group>"; };
+		CED759E31914147700388BEF /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29x29.png; path = ../29x29.png; sourceTree = "<group>"; };
+		CED759E51914161E00388BEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		CED759E61914165000388BEF /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "../Default~iphone.png"; sourceTree = "<group>"; };
+		CED759EA1914425600388BEF /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		CED759EB1914425600388BEF /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		CED759EC1914425600388BEF /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
+		CED759ED1914425600388BEF /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,15 +103,6 @@
 		CE9DD50E1910B13500F546D0 = {
 			isa = PBXGroup;
 			children = (
-				CED759E7191416EE00388BEF /* Default-568h@2x.png */,
-				CED759E61914165000388BEF /* Default~iphone.png */,
-				CED759E51914161E00388BEF /* Default.png */,
-				CED759E31914147700388BEF /* 29x29.png */,
-				CED759E21914144100388BEF /* 58x58.png */,
-				CED759E11914140600388BEF /* 80x80.png */,
-				CED759E019140EF700388BEF /* 120x120.png */,
-				CED759DF19140EE400388BEF /* 114x114.png */,
-				CED759DE19140EDB00388BEF /* 57x57.png */,
 				CE9DD5201910B13500F546D0 /* TipCalculator */,
 				CE9DD5391910B13500F546D0 /* TipCalculatorTests */,
 				CE9DD5191910B13500F546D0 /* Frameworks */,
@@ -152,6 +150,15 @@
 		CE9DD5211910B13500F546D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CED759E61914165000388BEF /* Default~iphone.png */,
+				CED759E51914161E00388BEF /* Default.png */,
+				CED759E31914147700388BEF /* 29x29.png */,
+				CED759E91914425600388BEF /* AppIcon.appiconset */,
+				CED759E21914144100388BEF /* 58x58.png */,
+				CED759E11914140600388BEF /* 80x80.png */,
+				CED759E019140EF700388BEF /* 120x120.png */,
+				CED759DF19140EE400388BEF /* 114x114.png */,
+				CED759DE19140EDB00388BEF /* 57x57.png */,
 				CE9DD5221910B13500F546D0 /* TipCalculator-Info.plist */,
 				CE9DD5231910B13500F546D0 /* InfoPlist.strings */,
 				CE9DD5261910B13500F546D0 /* main.m */,
@@ -176,6 +183,18 @@
 				CE9DD53C1910B13500F546D0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED759E91914425600388BEF /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				CED759EA1914425600388BEF /* 120x120.png */,
+				CED759EB1914425600388BEF /* 58x58.png */,
+				CED759EC1914425600388BEF /* 80x80.png */,
+				CED759ED1914425600388BEF /* Contents.json */,
+			);
+			name = AppIcon.appiconset;
+			path = Images.xcassets/AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +275,11 @@
 			files = (
 				CE9DD55219120EA900F546D0 /* TCSettingsViewController.xib in Resources */,
 				CE9DD5251910B13500F546D0 /* InfoPlist.strings in Resources */,
+				CED759F01914425600388BEF /* 80x80.png in Resources */,
+				CED759F11914425600388BEF /* Contents.json in Resources */,
+				CED759EE1914425600388BEF /* 120x120.png in Resources */,
 				CE9DD54D1910B28300F546D0 /* TCViewController.xib in Resources */,
+				CED759EF1914425600388BEF /* 58x58.png in Resources */,
 				CE9DD52D1910B13500F546D0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
