@@ -64,6 +64,9 @@
 		CED759E11914140600388BEF /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		CED759E21914144100388BEF /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
 		CED759E31914147700388BEF /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
+		CED759E51914161E00388BEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CED759E61914165000388BEF /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		CED759E7191416EE00388BEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,9 @@
 		CE9DD50E1910B13500F546D0 = {
 			isa = PBXGroup;
 			children = (
+				CED759E7191416EE00388BEF /* Default-568h@2x.png */,
+				CED759E61914165000388BEF /* Default~iphone.png */,
+				CED759E51914161E00388BEF /* Default.png */,
 				CED759E31914147700388BEF /* 29x29.png */,
 				CED759E21914144100388BEF /* 58x58.png */,
 				CED759E11914140600388BEF /* 80x80.png */,
